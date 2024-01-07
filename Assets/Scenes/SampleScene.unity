@@ -642,6 +642,8 @@ MonoBehaviour:
   speed: 8
   maxY: 4.2
   minY: -4.2
+  button: {fileID: 1812151840}
+  space: {fileID: 1606843468}
 --- !u!61 &1783874143
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -802,7 +804,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1812151841
 SpriteRenderer:
   m_ObjectHideFlags: 0
