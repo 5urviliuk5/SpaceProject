@@ -20,7 +20,7 @@ public class Space : MonoBehaviour
         xScroll = Time.time * speed;
 
         Vector2 offset = new Vector2(xScroll, 0f);
-        meshRenderer.sharedMaterial.SetTextureOffset("_MainTex", offset);
+        meshRenderer.sharedMaterial.SetTextureOffset("_MainTex", offset); // _MainTex
     }
 
     private void Awake()

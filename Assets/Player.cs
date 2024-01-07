@@ -8,6 +8,9 @@ public class Player : MonoBehaviour
     public float maxY;
     public float minY;
 
+    public GameObject button;
+    public Space space;
+
     void Update()
     {
         MovePlayer();
@@ -39,5 +42,14 @@ public class Player : MonoBehaviour
 
             transform.position = temp;
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Destroy(gameObject);
+
+        space.speed = 0f;
+
+        button.SetActive(true);
     }
 }
