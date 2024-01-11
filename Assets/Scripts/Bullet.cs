@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float speed;
+
+    private void Start()
     {
-        
+        Destroy(gameObject, 2f);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        Move();
+    }
+
+    void Move()
+    {
+        Vector3 temp = transform.position;
+        temp.x += speed * Time.deltaTime;
+        transform.position = temp;
     }
 }

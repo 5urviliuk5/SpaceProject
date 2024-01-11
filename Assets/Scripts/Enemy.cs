@@ -10,7 +10,6 @@ public class Enemy : MonoBehaviour
     {
         Vector3 temp = transform.position;
         temp.x -= speed * Time.deltaTime;
-
         transform.position = temp;
     }
 }

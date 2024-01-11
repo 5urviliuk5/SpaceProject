@@ -8,13 +8,15 @@ public class Player : MonoBehaviour
     public float speed = 8f;
     public float maxY;
     public float minY;
-
+    public GameObject bullet;
+    public Transform shootPoint;
     public GameObject button;
     public Space space;
 
     void Update()
     {
         MovePlayer();
+        Attack();
     }
 
     void MovePlayer()
@@ -45,13 +47,23 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        Destroy(gameObject);
-        Destroy(other.gameObject);
-
         space.speed = 0f;
+
+        // ifas su tag enemy destroy
 
         button.SetActive(true);
     }
+
+    void Attack()
+    {
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            Instantiate(bullet, shootPoint.position, Quaternion.identity);
+            Destroy(bullet, 5f);
+        }
+    }
 }
+
+// fix errors
