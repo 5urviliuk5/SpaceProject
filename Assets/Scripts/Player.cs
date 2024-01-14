@@ -47,23 +47,20 @@ public class Player : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other) // kills player
     {
-        space.speed = 0f;
-
-        // ifas su tag enemy destroy
-
-        button.SetActive(true);
+        if (other.tag == "Kill")
+        {
+            space.speed = 0f;
+            button.SetActive(true);
+        }
     }
 
     void Attack()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            Instantiate(bullet, shootPoint.position, Quaternion.identity);
-            Destroy(bullet, 5f);
+            Instantiate(bullet, shootPoint.position, shootPoint.rotation); // galima Quaternion.identity vietoj shootPoint.rotation
         }
     }
 }
-
-// fix errors

@@ -22,4 +22,22 @@ public class Bullet : MonoBehaviour
         temp.x += speed * Time.deltaTime;
         transform.position = temp;
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Kill")
+        {
+            float distance = Vector2.Distance(transform.position, other.transform.position);
+            float hitRange = 1.0f;
+
+            if (distance < hitRange)
+            {
+                Destroy(gameObject); // bullet
+                Destroy(other.gameObject); // enemy
+            }
+        }
+
+        
+
+    }
 }
