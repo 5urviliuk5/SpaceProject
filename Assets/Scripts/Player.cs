@@ -13,6 +13,11 @@ public class Player : MonoBehaviour
     public GameObject button;
     public Space space;
 
+    // RANDOM ENEMY POSITIONS
+    // DIFFICULTIES
+    // INTRO
+    // FINAL
+
     void Update()
     {
         MovePlayer();
