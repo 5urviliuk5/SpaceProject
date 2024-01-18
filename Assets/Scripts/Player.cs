@@ -12,9 +12,9 @@ public class Player : MonoBehaviour
     public Transform shootPoint;
     public GameObject button;
     public Space space;
+    public AudioSource shoot;
 
     // DIFFICULTIES
-    // BLASTER SOUND
     // DESTROY SOUND
     // FINAL
 
@@ -66,6 +66,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             Instantiate(bullet, shootPoint.position, shootPoint.rotation); // galima Quaternion.identity vietoj shootPoint.rotation
+            shoot.Play();
         }
     }
 }

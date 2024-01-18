@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public float speed;
-    
+
     void Update()
     {
         Vector3 temp = transform.position;
