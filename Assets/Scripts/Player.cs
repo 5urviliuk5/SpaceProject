@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     // DIFFICULTIES
     // DESTROY SOUND
     // FINAL
+    // SCORE (flappy bird)
 
     void Update()
     {
