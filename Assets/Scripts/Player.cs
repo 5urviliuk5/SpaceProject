@@ -13,11 +13,11 @@ public class Player : MonoBehaviour
     public GameObject button;
     public Space space;
 
-    // RANDOM ENEMY POSITIONS
     // DIFFICULTIES
-    // INTRO
+    // INTRO EXIT
+    // BLASTER SOUND
+    // DESTROY SOUND
     // FINAL
-    // public/private or ...
 
     void Update()
     {

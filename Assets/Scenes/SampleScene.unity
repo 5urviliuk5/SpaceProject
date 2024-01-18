@@ -669,8 +669,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
-  maxY: 4.2
-  minY: -4.2
+  maxY: 5
+  minY: -5
   bullet: {fileID: 5672488413216276263, guid: cb99e67f25ae33943b6397281e4b5424, type: 3}
   shootPoint: {fileID: 1048355933}
   button: {fileID: 1812151840}

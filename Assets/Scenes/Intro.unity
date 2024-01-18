@@ -226,6 +226,7 @@ GameObject:
   - component: {fileID: 1396334649}
   - component: {fileID: 1396334648}
   - component: {fileID: 1396334647}
+  - component: {fileID: 1396334650}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -263,7 +264,115 @@ MonoBehaviour:
     or up & down and win this game
 
 
-    Good Luck!'
+    Good Luck!
+
+
+    NKKM #1 !!!
+
+    NORIU
+    100 BALU!!!
+
+
+    NKKM #1 !!!
+
+    NORIU 100 BALU!!!
+
+
+    NKKM #1 !!!
+
+    NORIU
+    100 BALU!!!
+
+
+    NKKM #1 !!!
+
+    NORIU 100 BALU!!!
+
+
+    NKKM #1 !!!
+
+    NORIU
+    100 BALU!!!
+
+
+    NKKM #1 !!!
+
+    NORIU 100 BALU!!!
+
+
+    NKKM #1 !!!
+
+    NORIU
+    100 BALU!!!
+
+
+    NKKM #1 !!!
+
+    NORIU 100 BALU!!!
+
+
+    NKKM #1 !!!
+
+    NORIU
+    100 BALU!!!
+
+
+    NKKM #1 !!!
+
+    NORIU 100 BALU!!!
+
+
+    NKKM #1 !!!
+
+    NORIU
+    100 BALU!!!
+
+
+    NKKM #1 !!!
+
+    NORIU 100 BALU!!!
+
+
+    NKKM #1 !!!
+
+    NORIU
+    100 BALU!!!
+
+
+    NKKM #1 !!!
+
+    NORIU 100 BALU!!!
+
+
+    NKKM #1 !!!
+
+    NORIU
+    100 BALU!!!
+
+
+    NKKM #1 !!!
+
+    NORIU 100 BALU!!!
+
+
+    NKKM #1 !!!
+
+    NORIU
+    100 BALU!!!
+
+
+    NKKM #1 !!!
+
+    NORIU 100 BALU!!!
+
+
+    NKKM #1 !!!
+
+    NORIU
+    100 BALU!!!
+
+
+    BYE :('
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec274714aa63ef545868d60c5abfcb27, type: 2}
   m_sharedMaterial: {fileID: -3620063214937311674, guid: ec274714aa63ef545868d60c5abfcb27, type: 2}
@@ -393,9 +502,21 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -26.05}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1396334650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396334646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1741cb6044b99ce47ba9eac7525def2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1606843463
 GameObject:
   m_ObjectHideFlags: 0
