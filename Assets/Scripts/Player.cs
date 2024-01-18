@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     // DIFFICULTIES
     // INTRO
     // FINAL
+    // public/private or ...
 
     void Update()
     {
