@@ -14,7 +14,6 @@ public class Player : MonoBehaviour
     public Space space;
 
     // DIFFICULTIES
-    // INTRO EXIT
     // BLASTER SOUND
     // DESTROY SOUND
     // FINAL

@@ -1,12 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Click : MonoBehaviour
+public class SceneTransition : MonoBehaviour
 {
-    private void OnMouseDown()
+    void Update()
     {
-        SceneManager.LoadScene("SampleScene");
+        if (Input.GetMouseButtonDown(0))
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
     }
 }
