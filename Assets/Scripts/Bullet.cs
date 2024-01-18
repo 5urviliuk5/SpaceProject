@@ -5,7 +5,6 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public float speed;
-    public AudioSource death;
 
     private void Start()
     {
@@ -35,7 +34,6 @@ public class Bullet : MonoBehaviour
             {
                 Destroy(gameObject); // bullet
                 Destroy(other.gameObject); // enemy
-                death.Play();
             }
         }
     }
