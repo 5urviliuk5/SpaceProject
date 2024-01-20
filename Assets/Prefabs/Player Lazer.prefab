@@ -173,7 +173,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 25
-  death: {fileID: 0}
 --- !u!1 &7843980406926310729
 GameObject:
   m_ObjectHideFlags: 0
