@@ -15,8 +15,6 @@ public class Player : MonoBehaviour
     public Space space;
     public AudioSource shoot;
 
-    // EXIT
-
     void Update()
     {
         MovePlayer();

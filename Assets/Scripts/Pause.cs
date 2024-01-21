@@ -26,7 +26,8 @@ public class Pause : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            SceneManager.LoadScene("Intro");
+            Time.timeScale = 1.0f;
+            SceneManager.LoadScene("Finish");
         }
     }
 
