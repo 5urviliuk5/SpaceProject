@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
 
     // DIFFICULTIES
     // EXIT
-    // SCORE (flappy bird)
+    // Enemy shooting
 
     void Update()
     {
