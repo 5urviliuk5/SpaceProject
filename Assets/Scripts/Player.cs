@@ -15,9 +15,7 @@ public class Player : MonoBehaviour
     public Space space;
     public AudioSource shoot;
 
-    // DIFFICULTIES
     // EXIT
-    // Enemy shooting
 
     void Update()
     {
